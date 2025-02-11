@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promise Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #fefefe;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ffdede, #ffe5b4);
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .cards-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .promise-card {
+      width: 250px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .promise-card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .emoji {
+      font-size: 40px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ff6347;
+      margin-bottom: 10px;
+    }
+
+    .card-message {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .promise-card:hover .card-title {
+      color: #ff4500;
+    }
+
+    .promise-card:hover .card-message {
+      color: #333;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: #ff6347;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background: #ff4500;
+    }
+
+    .navigation {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="cards-container">
+    <div class="promise-card">
+      <span class="emoji">💌</span>
+      <h3 class="card-title">Promise of Love</h3>
+      <p class="card-message">I promise to love you endlessly, always.</p>
+    </div>
+    <div class="promise-card">
+      <span class="emoji">🤝</span>
+      <h3 class="card-title">Promise of Togetherness</h3>
+      <p class="card-message">I promise to always stand by your side.</p>
+    </div>
+    <div class="promise-card">
+      <span class="emoji">🥰</span>
+      <h3 class="card-title">Promise of Happiness</h3>
+      <p class="card-message">I promise to make you smile every single day.</p>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <a href="index.html" class="btn">Back to Home 🏠</a>
+  </div>
+</body>
+</html>
