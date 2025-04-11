@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "react-router-dom": "^7.1.5",
+    "web-vitals": "^4.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  }
+}
